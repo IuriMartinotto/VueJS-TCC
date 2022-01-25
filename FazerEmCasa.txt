@@ -1,0 +1,42 @@
+Extensions:
+
+Auto Close tag
+Vuter
+Prettier
+
+
+usando o aws para armazenar img
+mongo como bd
+
+Start do bd: nodemon server
+Start da app: npm run dev
+
+DEFAULT
+
+<template>
+  <div>
+    <Navbar></Navbar>
+    
+    <Nuxt />
+    
+    <Footer></Footer>
+  </div>
+</template>
+
+<script>
+import Navbar from "../../components/Navbar.vue";
+import Footer from "../../components/Footer.vue";
+export default {
+  components: {
+    Navbar,
+    Footer,
+  },
+};
+</script>
+
+
+
+
+INSTALAR NO CHROME 
+
+VUEJS DEVTOOLS
